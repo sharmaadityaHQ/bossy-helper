@@ -1,0 +1,29 @@
+body {
+  color: $body-text;
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+html,
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+}
+
+html {
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.app-container {
+  min-height: calc(100vh - 56px);
+}
+
+.container {
+  margin: auto;
+  max-width: 1140px;
+  padding: $xl;
+}

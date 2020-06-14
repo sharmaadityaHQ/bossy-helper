@@ -1,0 +1,47 @@
+// variables
+
+$btn-color: $primary-color;
+$btn-color-hover: $silk;
+
+.btn {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  display: inline-block;
+  line-height: 1.5;
+  padding: 0.375rem 0.75rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  user-select: none;
+  vertical-align: middle;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &-default {
+    background-color: $white;
+    border-color: $btn-color;
+    color: $white;
+
+    &:hover {
+      border-color: $btn-color-hover;
+    }
+  }
+
+  &-primary {
+    background-color: $btn-color;
+    border-color: $btn-color;
+    color: $white;
+
+    &:visited,
+    &:active,
+    &:hover {
+      background-color: $btn-color-hover;
+      border-color: $btn-color-hover;
+      color: $white;
+    }
+  }
+}
