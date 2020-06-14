@@ -1,16 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import logo from './logo.svg'
+import './App.css'
 
-function App () {
+function App() {
   return (
     <div className='App'>
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
-        <h2>Welcome to The EOS Design System</h2>
+        <h2>Welcome to The Open Source Guide</h2>
         <a
           className='App-link'
-          href='https://www.eosdesignsystem.com/'
+          href='https://summerofcode.withgoogle.com/organizations/'
           target='_blank'
           rel='noopener noreferrer'
         >
@@ -18,7 +18,7 @@ function App () {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
