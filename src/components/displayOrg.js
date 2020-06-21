@@ -1,7 +1,7 @@
 import React from 'react';
 import "../assets/scss/index.scss";
 
-export default (props) => (
+export default displayOrg = (props) => (
     <>
         <div className="card">
             <div className="card-logo">{props.logo}</div>
