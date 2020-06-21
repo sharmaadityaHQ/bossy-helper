@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from './logo.svg'
 import './App.css'
+import OrganisationCard from "./components/OrganisationCard";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           Learn More
         </a>
       </header>
+      <OrganisationCard name="Mozilla" summary="Keeping internet and accesible to all" />
     </div>
   )
 }

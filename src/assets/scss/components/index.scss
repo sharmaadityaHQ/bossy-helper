@@ -3,3 +3,17 @@
 @import './buttons';
 @import './scroll-to-top';
 @import './titles';
+
+.card {
+  border: 1px solid $gray-50;
+  color: $body-text;
+  height: 200px;
+  padding: $xs;
+  text-align: left;
+  width: 200px;
+  &-title {
+    font-weight: 900;
+    padding-bottom: -3px;
+  }
+
+}
