@@ -19,9 +19,7 @@ Ensure you have the following installed on your local machine:
 
 To run the project first install all dependencies by running `npm install`.
 
-## Available Scripts
-
-In the project directory, you can run:
+Now, in the project directory, you can run:
 
 ### `npm start`
 
@@ -33,12 +31,15 @@ You will also see any lint errors in the console.
 
 ### JS and SCSS quality assurance
 
-Before submitting a PR/MR make sure your code is compliant with our JS rules by running: npm run test:js You can format it automatically by running: npm run format.
-To make sure your SCSS is compliant run: npm run test:scss
-Heading - Build it to ensure it will work on production
-npm run build
-Builds the app for production to the build folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
-The build is minified and the filenames include the hashes.
+Before submitting a PR/MR make sure your code is compliant with our JS rules by running `npm run test:js`. 
+You can format it automatically by running `npm run format`.  
+
+To make sure your SCSS is compliant run `npm run test:scss`.
+
+### Build it to ensure it will work on production
+
+`npm run build`
+
+Builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance.The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
-See the section about (https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
