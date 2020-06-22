@@ -1,11 +1,12 @@
 import React from 'react'
-import logo from './logo.svg'
+// import logo from './logo.svg'
 import './App.css'
+import Home from './pages/Home'
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
+      {/* <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
         <h2>Welcome to The Open Source Guide</h2>
         <a
@@ -16,7 +17,8 @@ function App() {
         >
           Learn More
         </a>
-      </header>
+      </header> */}
+      <Home />
     </div>
   )
 }
