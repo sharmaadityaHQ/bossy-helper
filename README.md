@@ -31,8 +31,8 @@ You will also see any lint errors in the console.
 
 ### JS and SCSS quality assurance
 
-Before submitting a PR/MR make sure your code is compliant with our JS rules by running `npm run test:js`. 
-You can format it automatically by running `npm run format`.  
+Before submitting a PR/MR make sure your code is compliant with our JS rules by running `npm run test:js`.
+You can format it automatically by running `npm run format`.
 
 To make sure your SCSS is compliant run `npm run test:scss`.
 

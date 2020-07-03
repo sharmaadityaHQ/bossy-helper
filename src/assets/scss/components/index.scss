@@ -7,13 +7,12 @@
 .card {
   border: 1px solid $gray-50;
   color: $body-text;
-  height: 200px;
-  padding: $xs;
+  height: 10rem;
+  padding: $l;
   text-align: left;
   width: 200px;
   &-title {
     font-weight: 900;
-    padding-bottom: -3px;
+    margin-top: $s;
   }
-
 }

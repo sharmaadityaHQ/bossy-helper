@@ -1,19 +1,15 @@
 import React from 'react'
 
+import mozila from '../assets/img/mozila.svg'
+import DisplayOrg from '../components/displayOrg'
 const Home = () => {
   return (
     <>
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <a
-        className='App-link'
-        href='https://reactjs.org'
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        Learn React
-      </a>
+      <DisplayOrg
+        logo={mozila}
+        name='Mozila'
+        summary='Keeping the internet open and accesible to all'
+      />
     </>
   )
 }
