@@ -16,3 +16,28 @@
     margin-top: $s;
   }
 }
+
+.header{
+  background: rebeccapurple;
+  margin: 0 auto;
+  padding: 0 10rem;
+  display: flex;
+  flex-direction: row;
+
+  &--text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   color: #FFFFFF;
+
+   h1{
+     font-size: 3rem;
+     font-weight: bold;
+   }
+  }
+
+  &--img {
+    width: 10rem;
+    height: 10rem;
+  }
+}
