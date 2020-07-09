@@ -16,3 +16,26 @@
     margin-top: $s;
   }
 }
+
+.header {
+  background: $primary-color;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 0 10rem;
+  
+  &--text {
+    color: $body-text;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: $m;
+
+   h1 {
+     font-size: 3rem;
+     font-weight: bold;
+   }
+
+  }
+
+}
