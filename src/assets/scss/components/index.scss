@@ -11,6 +11,7 @@
   padding: $l;
   text-align: left;
   width: 200px;
+
   &-title {
     font-weight: 900;
     margin-top: $s;
@@ -23,7 +24,7 @@
   flex-direction: row;
   margin: 0 auto;
   padding: 0 10rem;
-  
+
   &--text {
     color: $body-text;
     display: flex;
@@ -31,9 +32,9 @@
     justify-content: center;
     padding: $m;
 
-   h1 {
-     font-size: 3rem;
-     font-weight: bold;
+    h1 {
+      font-size: $font-size;
+      font-weight: bold;
    }
 
   }
