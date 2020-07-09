@@ -19,9 +19,9 @@
 }
 
 .header {
-  background: $primary-color;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   margin: 0 auto;
   padding: 0 10rem;
 
@@ -29,12 +29,16 @@
     color: $body-text;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: $m;
 
     h1 {
-      font-size: $font-size;
+      font-size: $heading-size;
       font-weight: bold;
+      text-align: center;
+   }
+
+    span {
+      font-size: $subheading-size;
    }
 
   }
