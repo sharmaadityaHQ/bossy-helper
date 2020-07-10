@@ -1,12 +1,20 @@
 import React from 'react'
-
-// import mozila from '../assets/img/mozila.svg'
-// import DisplayOrg from '../components/displayOrg'
 import Header from '../components/header'
+import Card from '../components/Card'
+import contribute from '../assets/img/contribute.svg'
+
 const Home = () => {
   return (
     <React.Fragment>
-      <Header />
+      <div className='home'>
+        <Header />
+        <div className='home-grid'>
+          <Card logo={contribute} name='lorem Ipsum' summary='lorem ipsum' />
+          <Card logo={contribute} name='lorem Ipsum' summary='lorem ipsum' />
+          <Card logo={contribute} name='lorem Ipsum' summary='lorem ipsum' />
+          <Card logo={contribute} name='lorem Ipsum' summary='lorem ipsum' />
+        </div>
+      </div>
     </React.Fragment>
   )
 }

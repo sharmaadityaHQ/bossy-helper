@@ -10,7 +10,7 @@
   height: 10rem;
   padding: $l;
   text-align: left;
-  width: 200px;
+  width: 20rem;
 
   &-title {
     font-weight: 900;
@@ -41,6 +41,19 @@
       font-size: $subheading-size;
    }
 
+  }
+
+}
+
+.home {
+  margin: 0 auto;
+
+  &-grid {
+    display: grid;
+    grid-gap: $l;
+    grid-template-columns: 1fr 1fr;
+    margin-left: $xxxl * 8;
+    width: 50%;
   }
 
 }
