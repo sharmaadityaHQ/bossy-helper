@@ -7,7 +7,7 @@
 .card {
   border: 1px solid $gray-50;
   color: $body-text;
-  height: 10rem;
+  height: 20rem;
   padding: $l;
   text-align: left;
   width: 20rem;
@@ -53,6 +53,7 @@
     grid-gap: $l;
     grid-template-columns: 1fr 1fr;
     margin-left: $xxxl * 8;
+    margin-top: $s;
     width: 50%;
   }
 
