@@ -1,7 +1,7 @@
 import React from 'react'
 import '../assets/scss/index.scss'
 
-const card = (props) => (
+const Card = (props) => (
   <>
     <div className='card'>
       <img className='card-logo' src={props.logo} alt='organisation logo' />
@@ -11,4 +11,4 @@ const card = (props) => (
   </>
 )
 
-export default card
+export default Card
