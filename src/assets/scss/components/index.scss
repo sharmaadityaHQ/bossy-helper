@@ -7,10 +7,10 @@
 .card {
   border: 1px solid $gray-50;
   color: $body-text;
-  height: 10rem;
+  height: 20rem;
   padding: $l;
   text-align: left;
-  width: 200px;
+  width: 20rem;
 
   &-title {
     font-weight: 900;
@@ -19,9 +19,9 @@
 }
 
 .header {
-  background: $primary-color;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   margin: 0 auto;
   padding: 0 10rem;
 
@@ -29,14 +29,32 @@
     color: $body-text;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: $m;
 
     h1 {
-      font-size: $font-size;
+      font-size: $heading-size;
       font-weight: bold;
+      text-align: center;
    }
 
+    span {
+      font-size: $subheading-size;
+   }
+
+  }
+
+}
+
+.home {
+  margin: 0 auto;
+
+  &-grid {
+    display: grid;
+    grid-gap: $l;
+    grid-template-columns: 1fr 1fr;
+    margin-left: $xxxl * 8;
+    margin-top: $s;
+    width: 50%;
   }
 
 }
