@@ -16,6 +16,11 @@
     font-weight: 900;
     margin-top: $s;
   }
+
+  &-logo {
+    height: 12rem;
+    width: 20rem;
+  }
 }
 
 .header {
@@ -24,25 +29,6 @@
   justify-content: center;
   margin: 0 auto;
   padding: 0 10rem;
-
-  &--text {
-    color: $body-text;
-    display: flex;
-    flex-direction: column;
-    padding: $m;
-
-    h1 {
-      font-size: $heading-size;
-      font-weight: bold;
-      text-align: center;
-   }
-
-    span {
-      font-size: $subheading-size;
-   }
-
-  }
-
 }
 
 .home {
@@ -57,4 +43,8 @@
     width: 50%;
   }
 
+}
+
+.app {
+  background: $gradient;
 }
